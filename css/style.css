@@ -1,0 +1,139 @@
+body{
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color:white ;
+    justify-content: space-between;
+}
+header.header img {
+width: 150px;
+}
+.landing-page {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+.top-page {
+     background: url('../images/arriere\ plan.jpeg');
+     background-size: cover; 
+     height: 80vh;
+}
+nav.nav{
+ width: 50%;
+ display: flex;
+ list-style: none;
+ justify-content: space-around;
+ align-items: center;
+}
+nav.nav li{
+    color: #252B42;
+    
+}
+.pizzaBloc{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.pizza{
+    width: 30%;
+    border: 3px solid orangered ;
+}
+.pizza img{
+    width: 100%;
+}
+section h1{
+    text-align: center;
+}
+.pizza button{
+    background-color: orangered;
+    width: 60px;
+    border-radius: 10px;
+    color: white;
+    float: right;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.burgerBloc{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.burger{
+    width: 30%;
+    border: 3px solid orangered ;
+}
+.burger button{
+    background-color: orangered;
+    width: 60px;
+    border-radius: 10px;
+    color: white;
+    float: right;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.burger img{
+    width: 100%;
+}
+.saladeBloc{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.salade{
+    width: 30%;
+    border: 3px solid orangered ;
+}
+.salade button{
+    background-color: orangered;
+    width: 60px;
+    border-radius: 10px;
+    color: white;
+    float: right;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+hr{
+    width: 300px;
+    margin-top: 30px;
+}
+.salade img{
+    width: 100%;
+}
+.problem h2{
+     font-size: 36px;
+     margin-top: 10%;
+}
+.problem p{
+    font-size: 24px;
+    color: #786666;
+    margin-bottom: 50px;
+}
+.banniereFooter{
+    background: url('../images/arriere\ plan\ 2.jpeg');
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    text-align: center;
+    font-size: xx-large;   
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
+    width: 20px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color:white ;
+    justify-content: space-around;
+}
+.img{
+    width: 150px;
+}
