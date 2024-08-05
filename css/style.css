@@ -124,7 +124,6 @@ hr{
 footer div{
     display: flex;
     justify-content: space-around;
-    width: 20px;
 }
 footer{
     width: 100%;
